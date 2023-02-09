@@ -11,20 +11,21 @@
 		A0D2268F299507D300728ADA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2268E299507D300728ADA /* ContentView.swift */; };
 		A0D22691299507D500728ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D22690299507D500728ADA /* Assets.xcassets */; };
 		A0D22694299507D500728ADA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D22693299507D500728ADA /* Preview Assets.xcassets */; };
-		A0D2269E299507D500728ADA /* TogglTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D2269D299507D500728ADA /* TogglTestProjectTests.swift */; };
-		A0D226A8299507D600728ADA /* TogglTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226A7299507D600728ADA /* TogglTestProjectUITests.swift */; };
-		A0D226AA299507D600728ADA /* TogglTestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226A9299507D600728ADA /* TogglTestProjectUITestsLaunchTests.swift */; };
+		A0D226BD2995084A00728ADA /* FormatDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226BC2995084A00728ADA /* FormatDate.swift */; };
+		A0D226BF2995085200728ADA /* FormatTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226BE2995085200728ADA /* FormatTime.swift */; };
+		A0D226C12995085900728ADA /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226C02995085900728ADA /* DataController.swift */; };
+		A0D226C42995087100728ADA /* ActivityModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0D226C22995087100728ADA /* ActivityModel.xcdatamodeld */; };
+		A0D226C6299508B200728ADA /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226C5299508B200728ADA /* ActivityDetailView.swift */; };
+		A0D226C8299508B800728ADA /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226C7299508B800728ADA /* BlankView.swift */; };
+		A0D226CA299508C700728ADA /* NewActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226C9299508C700728ADA /* NewActivityView.swift */; };
+		A0D226CC299508D200728ADA /* ActivityCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226CB299508D200728ADA /* ActivityCardView.swift */; };
+		A0D226CE2995091800728ADA /* InfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226CD2995091800728ADA /* InfoCard.swift */; };
+		A0D226D02995091F00728ADA /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226CF2995091F00728ADA /* Subtitle.swift */; };
+		A0D226D22995095700728ADA /* DataControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D226D12995095700728ADA /* DataControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A0D2269A299507D500728ADA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A0D22681299507D300728ADA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A0D22688299507D300728ADA;
-			remoteInfo = TogglTestProject;
-		};
-		A0D226A4299507D600728ADA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A0D22681299507D300728ADA /* Project object */;
 			proxyType = 1;
@@ -40,10 +41,18 @@
 		A0D22690299507D500728ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D22693299507D500728ADA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0D22699299507D500728ADA /* TogglTestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TogglTestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0D2269D299507D500728ADA /* TogglTestProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglTestProjectTests.swift; sourceTree = "<group>"; };
-		A0D226A3299507D600728ADA /* TogglTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TogglTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0D226A7299507D600728ADA /* TogglTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglTestProjectUITests.swift; sourceTree = "<group>"; };
-		A0D226A9299507D600728ADA /* TogglTestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglTestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0D226BC2995084A00728ADA /* FormatDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatDate.swift; sourceTree = "<group>"; };
+		A0D226BE2995085200728ADA /* FormatTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatTime.swift; sourceTree = "<group>"; };
+		A0D226C02995085900728ADA /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		A0D226C32995087100728ADA /* ActivityModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ActivityModel.xcdatamodel; sourceTree = "<group>"; };
+		A0D226C5299508B200728ADA /* ActivityDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		A0D226C7299508B800728ADA /* BlankView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		A0D226C9299508C700728ADA /* NewActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewActivityView.swift; sourceTree = "<group>"; };
+		A0D226CB299508D200728ADA /* ActivityCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCardView.swift; sourceTree = "<group>"; };
+		A0D226CD2995091800728ADA /* InfoCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCard.swift; sourceTree = "<group>"; };
+		A0D226CF2995091F00728ADA /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		A0D226D12995095700728ADA /* DataControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataControllerTests.swift; sourceTree = "<group>"; };
+		A0D226D92995115A00728ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +70,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0D226A0299507D600728ADA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +78,6 @@
 			children = (
 				A0D2268B299507D300728ADA /* TogglTestProject */,
 				A0D2269C299507D500728ADA /* TogglTestProjectTests */,
-				A0D226A6299507D600728ADA /* TogglTestProjectUITests */,
 				A0D2268A299507D300728ADA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +87,6 @@
 			children = (
 				A0D22689299507D300728ADA /* TogglTestProject.app */,
 				A0D22699299507D500728ADA /* TogglTestProjectTests.xctest */,
-				A0D226A3299507D600728ADA /* TogglTestProjectUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +94,12 @@
 		A0D2268B299507D300728ADA /* TogglTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				A0D226D92995115A00728ADA /* Info.plist */,
 				A0D2268C299507D300728ADA /* TogglTestProjectApp.swift */,
-				A0D2268E299507D300728ADA /* ContentView.swift */,
+				A0D226B92995081700728ADA /* ViewComponents */,
+				A0D226B82995081100728ADA /* Helpers */,
+				A0D226B72995080800728ADA /* DataModel */,
+				A0D226B62995080400728ADA /* Views */,
 				A0D22690299507D500728ADA /* Assets.xcassets */,
 				A0D22692299507D500728ADA /* Preview Content */,
 			);
@@ -113,18 +117,48 @@
 		A0D2269C299507D500728ADA /* TogglTestProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				A0D2269D299507D500728ADA /* TogglTestProjectTests.swift */,
+				A0D226D12995095700728ADA /* DataControllerTests.swift */,
 			);
 			path = TogglTestProjectTests;
 			sourceTree = "<group>";
 		};
-		A0D226A6299507D600728ADA /* TogglTestProjectUITests */ = {
+		A0D226B62995080400728ADA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A0D226A7299507D600728ADA /* TogglTestProjectUITests.swift */,
-				A0D226A9299507D600728ADA /* TogglTestProjectUITestsLaunchTests.swift */,
+				A0D2268E299507D300728ADA /* ContentView.swift */,
+				A0D226C5299508B200728ADA /* ActivityDetailView.swift */,
+				A0D226C7299508B800728ADA /* BlankView.swift */,
+				A0D226C9299508C700728ADA /* NewActivityView.swift */,
+				A0D226CB299508D200728ADA /* ActivityCardView.swift */,
 			);
-			path = TogglTestProjectUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A0D226B72995080800728ADA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A0D226C22995087100728ADA /* ActivityModel.xcdatamodeld */,
+				A0D226C02995085900728ADA /* DataController.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		A0D226B82995081100728ADA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A0D226BC2995084A00728ADA /* FormatDate.swift */,
+				A0D226BE2995085200728ADA /* FormatTime.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A0D226B92995081700728ADA /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A0D226CD2995091800728ADA /* InfoCard.swift */,
+				A0D226CF2995091F00728ADA /* Subtitle.swift */,
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +199,6 @@
 			productReference = A0D22699299507D500728ADA /* TogglTestProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A0D226A2299507D600728ADA /* TogglTestProjectUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A0D226B3299507D600728ADA /* Build configuration list for PBXNativeTarget "TogglTestProjectUITests" */;
-			buildPhases = (
-				A0D2269F299507D600728ADA /* Sources */,
-				A0D226A0299507D600728ADA /* Frameworks */,
-				A0D226A1299507D600728ADA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A0D226A5299507D600728ADA /* PBXTargetDependency */,
-			);
-			name = TogglTestProjectUITests;
-			productName = TogglTestProjectUITests;
-			productReference = A0D226A3299507D600728ADA /* TogglTestProjectUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +213,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					A0D22698299507D500728ADA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = A0D22688299507D300728ADA;
-					};
-					A0D226A2299507D600728ADA = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = A0D22688299507D300728ADA;
 					};
@@ -221,7 +233,6 @@
 			targets = (
 				A0D22688299507D300728ADA /* TogglTestProject */,
 				A0D22698299507D500728ADA /* TogglTestProjectTests */,
-				A0D226A2299507D600728ADA /* TogglTestProjectUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +254,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0D226A1299507D600728ADA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D226C42995087100728ADA /* ActivityModel.xcdatamodeld in Sources */,
+				A0D226C12995085900728ADA /* DataController.swift in Sources */,
 				A0D2268F299507D300728ADA /* ContentView.swift in Sources */,
+				A0D226BD2995084A00728ADA /* FormatDate.swift in Sources */,
+				A0D226CA299508C700728ADA /* NewActivityView.swift in Sources */,
 				A0D2268D299507D300728ADA /* TogglTestProjectApp.swift in Sources */,
+				A0D226CE2995091800728ADA /* InfoCard.swift in Sources */,
+				A0D226C8299508B800728ADA /* BlankView.swift in Sources */,
+				A0D226BF2995085200728ADA /* FormatTime.swift in Sources */,
+				A0D226D02995091F00728ADA /* Subtitle.swift in Sources */,
+				A0D226C6299508B200728ADA /* ActivityDetailView.swift in Sources */,
+				A0D226CC299508D200728ADA /* ActivityCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D2269E299507D500728ADA /* TogglTestProjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0D2269F299507D600728ADA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0D226AA299507D600728ADA /* TogglTestProjectUITestsLaunchTests.swift in Sources */,
-				A0D226A8299507D600728ADA /* TogglTestProjectUITests.swift in Sources */,
+				A0D226D22995095700728ADA /* DataControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +291,6 @@
 			isa = PBXTargetDependency;
 			target = A0D22688299507D300728ADA /* TogglTestProject */;
 			targetProxy = A0D2269A299507D500728ADA /* PBXContainerItemProxy */;
-		};
-		A0D226A5299507D600728ADA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A0D22688299507D300728ADA /* TogglTestProject */;
-			targetProxy = A0D226A4299507D600728ADA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,7 +420,7 @@
 				DEVELOPMENT_TEAM = 38YB7VQ8J5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TogglTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +449,7 @@
 				DEVELOPMENT_TEAM = 38YB7VQ8J5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TogglTestProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,42 +507,6 @@
 			};
 			name = Release;
 		};
-		A0D226B4299507D600728ADA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 38YB7VQ8J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gouseiitg.TogglTestProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TogglTestProject;
-			};
-			name = Debug;
-		};
-		A0D226B5299507D600728ADA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 38YB7VQ8J5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gouseiitg.TogglTestProjectUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TogglTestProject;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -573,16 +537,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A0D226B3299507D600728ADA /* Build configuration list for PBXNativeTarget "TogglTestProjectUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0D226B4299507D600728ADA /* Debug */,
-				A0D226B5299507D600728ADA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0D226C22995087100728ADA /* ActivityModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0D226C32995087100728ADA /* ActivityModel.xcdatamodel */,
+			);
+			currentVersion = A0D226C32995087100728ADA /* ActivityModel.xcdatamodel */;
+			path = ActivityModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A0D22681299507D300728ADA /* Project object */;
 }
